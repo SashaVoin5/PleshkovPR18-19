@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   I7 10700"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/_0201125_104130_650" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="Core i7-10700 работает на частоте 2,90 ГГц и имеет максимальную частоту повышения 4,80 ГГц. В отличие от серии Core i5 10-го поколения, он также имеет популярные ядра и технологию Turbo Boost Max 3.0. Однако, в отличие от Core i9, он проигрывает в тепловом ускорении. Предпочтительные ядра — это метод повышения однопоточной производительности за счет определения двух наиболее производительных ядер на кремнии во время производства, их маркировки в микрокоде и предоставления их осведомленным операционным системам (Windows 10 1709 или более поздней версии). , ядра Linux Q1 2018 и более поздние версии). В силу своего физического превосходства эти ядра способны лучше поддерживать более высокие тактовые частоты, поэтому ОС отдает приоритет трафику к ним.
+
+Core i7-10700 проверен по четырем точкам данных (это около 300 тестов). Первая (зеленая полоса) представляет процессор из коробки, нетронутый, с BIOS материнской платы, соответствующим спецификациям Intel, и с нашей конфигурацией памяти по умолчанию для обзоров ЦП. Во второй конфигурации (коричневая полоса) память работает на частоте DDR4-2933, что является максимально возможной тактовой частотой памяти на материнских платах с чипсетом B460 среднего класса. Третья точка данных (синяя полоса) показывает, что мы ослабили ограничения мощности, чтобы включить максимальную турбо-частоту, доступную для этого процессора. Последняя точка данных (красная полоса) заставила нас добиться максимально возможного ручного разгона для этого процессора с блокировкой множителя, подняв BCLK (базовую тактовую частоту) до 103 МГц (после того, как процессоры Intel запрограммированы на сбой). Мы узнаем, если с небольшим усилием,
+"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/m1"
+        android:title="Что такое процессор?"
+        android:visible="true" />
+    <item
+        android:id="@+id/m2"
+        android:title="i7 4770" />
+    <item
+        android:id="@+id/m3"
+        android:title="i7 6700"
+        android:visible="true" />
+    <item
+        android:id="@+id/m4"
+        android:title="i7 7700"
+        android:visible="true" />
+    <item
+        android:id="@+id/m5"
+        android:title="i7 8700"
+        android:visible="true" />
+    <item
+        android:id="@+id/m6"
+        android:title="i7 9700"
+        android:visible="true" />
+    <item
+        android:id="@+id/m7"
+        android:title="i7 10700"
+        android:visible="true" />
+
+</menu>

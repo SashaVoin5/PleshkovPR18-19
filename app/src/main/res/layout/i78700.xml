@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   I7 8700"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/_e4d23a2d677504be37db915" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="Intel Core i7-8700 — процессор для настольных ПК с 6 ядрами, выпущенный в январе 2018 года. Он является частью линейки Core i7, использующей архитектуру Coffee Lake с разъемом Socket 1151. Благодаря технологии Intel Hyper-Threading число ядер фактически удваивается. , до 12 потоков. Core i7-8700 имеет 12 МБ кэш-памяти L3 и по умолчанию работает на частоте 3,2 ГГц, но может повышаться до 4,6 ГГц в зависимости от рабочей нагрузки. Intel строит Core i7-8700 по 14-нанометровому техпроцессу, количество транзисторов неизвестно. Множитель заблокирован на Core i7-8700, что ограничивает его возможности по разгону.
+С TDP 65 Вт Core i7-8700 потребляет типичный для современного ПК уровень мощности. Процессор Intel поддерживает память DDR4 с двухканальным интерфейсом. Самая высокая официально поддерживаемая частота памяти — 2666 МГц, но с разгоном (и правильными модулями памяти) можно подняться еще выше. Для связи с другими компонентами машины Core i7-8700 использует соединение PCI-Express Gen 3. В этом процессоре нет встроенной графики, вам понадобится отдельная видеокарта.
+Аппаратная виртуализация доступна на Core i7-8700, что значительно повышает производительность виртуальной машины. Кроме того, поддерживается виртуализация IOMMU (прохождение PCI), поэтому гостевые виртуальные машины могут напрямую использовать оборудование хоста. Программы, использующие Advanced Vector Extensions (AVX), будут работать на этом процессоре, что повысит производительность приложений, требующих больших вычислительных ресурсов. Помимо AVX, Intel также включает новый стандарт AVX2, но не AVX-512.
+"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

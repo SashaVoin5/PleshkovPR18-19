@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   I7 7700"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/_e6a28ec85e9d26cde15a2c4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="Intel Core i7-7700 — это четырехъядерный процессор для настольных ПК, выпущенный в январе 2017 года. Он входит в линейку Core i7 и использует архитектуру Kaby Lake с разъемом Socket 1151. Благодаря технологии Intel Hyper-Threading число ядер фактически удваивается. , до 8 потоков. Core i7-7700 имеет 8 МБ кэш-памяти L3 и работает на частоте 3,6 ГГц по умолчанию, но может повышаться до 4,2 ГГц в зависимости от рабочей нагрузки. Intel строит Core i7-7700 по 14-нанометровому техпроцессу, количество транзисторов неизвестно. Множитель заблокирован на Core i7-7700, что ограничивает его возможности разгона.
+С TDP 65 Вт Core i7-7700 потребляет типичный уровень мощности для современного ПК. Процессор Intel поддерживает память DDR4 с двухканальным интерфейсом. Самая высокая официально поддерживаемая частота памяти — 2400 МГц, но с разгоном (и правильными модулями памяти) можно подняться еще выше. Для связи с другими компонентами в системе Core i7-7700 использует соединение PCI-Express Gen 3. Этот процессор оснащен интегрированным графическим решением HD 630.
+Аппаратная виртуализация доступна на Core i7-7700, что значительно повышает производительность виртуальной машины. Кроме того, поддерживается виртуализация IOMMU (прохождение PCI), поэтому гостевые виртуальные машины могут напрямую использовать оборудование хоста. Программы, использующие Advanced Vector Extensions (AVX), будут работать на этом процессоре, что повысит производительность приложений, требующих больших вычислительных ресурсов. Помимо AVX, Intel также включает новый стандарт AVX2, но не AVX-512."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

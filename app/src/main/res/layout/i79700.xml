@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   I7 9700"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/protsessor_intel_core_i7_9700_lga1151_box_1574766165_1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="Intel Core i7-9700 — это 8-ядерный процессор для настольных ПК, выпущенный в апреле 2019 года. Он является частью линейки Core i7, использующей архитектуру Coffee Lake Refresh с разъемом Socket 1151. Core i7-9700 имеет 12 МБ кэш-памяти L3 и работает на 3 ГГц по умолчанию, но может увеличиться до 4,7 ГГц в зависимости от рабочей нагрузки. Intel строит Core i7-9700 по 14-нанометровому техпроцессу, количество транзисторов неизвестно. Множитель заблокирован на Core i7-9700, что ограничивает его возможности по разгону.
+С TDP 65 Вт Core i7-9700 потребляет типичный для современного ПК уровень мощности. Процессор Intel поддерживает память DDR4 с двухканальным интерфейсом. Самая высокая официально поддерживаемая частота памяти — 2666 МГц, но с разгоном (и правильными модулями памяти) можно подняться еще выше. Для связи с другими компонентами машины Core i7-9700 использует соединение PCI-Express Gen 3. Этот процессор оснащен интегрированным графическим решением UHD Graphics 630.
+Аппаратная виртуализация доступна на Core i7-9700, что значительно повышает производительность виртуальной машины. Кроме того, поддерживается виртуализация IOMMU (прохождение PCI), поэтому гостевые виртуальные машины могут напрямую использовать оборудование хоста. Программы, использующие Advanced Vector Extensions (AVX), будут работать на этом процессоре, что повысит производительность приложений, требующих больших вычислительных ресурсов. Помимо AVX, Intel также включает новый стандарт AVX2, но не AVX-512."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

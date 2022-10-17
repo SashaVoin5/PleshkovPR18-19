@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   I7 4770"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/_b897d29c6ab9e07e1631d82" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:text="Intel Core i7-4770-это настольный процессор с 4 ядрами, выпущенный в июне 2013 года. Он является частью линейки Core i7, использующей архитектуру Haswell с сокетом 1150. Благодаря Intel Hyper-Threading количество ядер фактически удваивается - до 8 потоков. Core i7-4770 имеет 8 МБ кэш-памяти L3 и по умолчанию работает на частоте 3,4 ГГц, но может увеличиться до 3,9 ГГц, в зависимости от рабочей нагрузки.ntel строит Core i7-4770 по 22-нм технологическому процессу с использованием 1400 миллионов транзисторов. Множитель заблокирован на Core i7-4770, что ограничивает его возможности разгона.
+При TDP 84 Вт Core i7-4770 потребляет много энергии, поэтому требуется приличное охлаждение. Процессор Intel поддерживает память DDR3 с двухканальным интерфейсом. Самая высокая официально поддерживаемая скорость памяти составляет 1600 МГц, но с разгоном (и правильными модулями памяти) вы можете подняться еще выше. Для связи с другими компонентами компьютера Core i7-4770 использует соединение PCI-Express Gen 3. Этот процессор оснащен интегрированным графическим решением Intel HD 4600.
+На Core i7-4770 доступна аппаратная виртуализация, что значительно повышает производительность виртуальной машины. Кроме того, поддерживается виртуализация IOMMU (сквозная передача PCI), так что гостевые виртуальные машины могут напрямую использовать аппаратное обеспечение хоста. На этом процессоре будут выполняться программы, использующие расширенные векторные расширения (AVX), что повышает производительность приложений с большим объемом вычислений. Помимо AVX, Intel также включает более новый стандарт AVX2, но не AVX-512."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
